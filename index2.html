@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 60px;
+                padding-bottom: 40px;
+            }
+        </style>
+        <link rel="stylesheet" href="assets/css/bootstrap-responsive.min.css">
+        <link rel="stylesheet" href="assets/css/jquery-ui-1.9.2.custom.min.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+		<link rel="stylesheet" href="assets/css/etch.css" />
+
+       <script src="assets/js/lib/jquery-1.8.3.min.js"></script>
+       <script src="assets/js/lib/jquery-ui-1.9.2.custom.min.js"></script>
+       <script src="assets/js/lib/bootstrap.min.js"></script>
+	   <script>
+		   $(document).ready(function() {
+			   // Handler for .ready() called.
+			   //set up portlets for drag and drop
+			   $(".portalbox").sortable({
+				   connectWith: '.portalbox',
+				   items: '.sortable',
+				   handle: '.portlet-header',
+				   placeholder: 'placer',
+				   forcePlaceholderSize: true,
+				   forceHelperSize: true,
+				   revert: true,
+				   dropOnEmpty: true
+			   });
+			   $('#main').html('<div style="background-color:red;">fdsfds</div>');
+		   });
+		   
+		
+	   </script>
+    </head>
+    <body>
+		<div id="loadingSpinner">
+			<img src="assets/img/spinner.gif"/>
+		</div>
+	    <div id="menu"></div>
+		<div id="main"></div>
+		<div id="helper"></div>
+		<div class="container">
+			<h3>Drag n Drop Portal</h3>
+			
+			<!-- Content Here  -->
+			<div id="portletcontainer" class="mcontainer">
+				<div id="col1" class="col32 portalbox">
+					<div id="myportlet1" class="portlet sortable" _close="0" _max="1">
+						<div class="portlet-header" style="vertical-align: middle;">
+						<span class="heading ">I am Portlet1 </span><span class='na-icon na-icon-gear portlet-settings'
+						title="Portlet Settings"></span>
+					</div>
+					<div class="content">
+						This is portlet1. Cannot be closed or minimized.
+						<br />
+					</div>
+				</div>
+			</div>
+			<div id="col2" class="col32 portalbox">
+				<div id="myportlet2" class="portlet sortable" _close="0" _max="1">
+					<div class="portlet-header" style="vertical-align: middle;">
+					<span class="heading ">I am Portlet2 </span><span class='na-icon na-icon-close portlet-close'
+					title="Close"></span><span class='na-icon na-icon-triangle-1-s minmax' title="Minimize">
+					</span><span class='na-icon na-icon-extlink popout' title="Pop-out"></span>
+				</div>
+				<div class="content">
+					This is portlet2
+					<br />
+				</div>
+			</div>
+			<div id="myportlet3" class="portlet sortable" _close="0" _max="1">
+				<div class="portlet-header" style="vertical-align: middle;">
+				<span class="heading ">I am Portlet3 </span><span class='na-icon na-icon-close portlet-close'
+				title="Close"></span><span class='na-icon na-icon-triangle-1-s minmax' title="Minimize">
+				</span><span class='na-icon na-icon-extlink popout' title="Pop-out"></span>
+			</div>
+			<div class="content">
+				This is portlet3
+				<br />
+			</div>
+		</div>
+	</div>
+	<div id="col3" class="col32 portalbox">
+		<div id="myportlet4" class="portlet sortable" _close="0" _max="1">
+			<div class="portlet-header" style="vertical-align: middle;">
+			<span class="heading ">I am Portlet4 </span><span class='na-icon na-icon-close portlet-close'
+			title="Close"></span><span class='na-icon na-icon-triangle-1-s minmax' title="Minimize">
+			</span><span class='na-icon na-icon-extlink popout' title="Pop-out"></span>
+		</div>
+		<div class="content">
+			This is portlet4
+			<br />
+		</div>
+	</div>
+	<div id="myportlet5" class="portlet sortable" _close="0" _max="1">
+		<div class="portlet-header" style="vertical-align: middle;">
+		<span class="heading ">I am Portlet5 </span><span class='na-icon na-icon-close portlet-close'
+		title="Close"></span><span class='na-icon na-icon-triangle-1-s minmax' title="Minimize">
+		</span><span class='na-icon na-icon-extlink popout' title="Pop-out"></span>
+	</div>
+	<div class="content">
+		This is portlet5
+		<br />
+	</div>
+</div>
+		</div>
+	</div>	 
+	<div class="clear"></div>
+	<footer>
+		<p>&copy; Company 2012</p>
+	</footer>
+	
+</div> <!-- /container -->
+
+
+
+    </body>
+</html>
