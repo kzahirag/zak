@@ -186,6 +186,7 @@ define([
 				// console.log(blocks);
 			});
 			
+			/*
 			$('.blocks').hover(
 			function () {
 				console.log($(this));
@@ -199,7 +200,7 @@ define([
 				$(this).find('.blockclose').css('display', 'none');
 				$(this).find('h3.blocks-title').css('display', 'none');
 			});
-			
+			*/
 			
 		},
 		

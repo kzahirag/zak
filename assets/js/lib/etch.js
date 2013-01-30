@@ -52,8 +52,13 @@
       'click .etch-link': 'toggleLink',
       'click .etch-image': 'getImage',
       'click .etch-save': 'save',
-      'click .etch-clear-formatting': 'clearFormatting'
+      'click .etch-clear-formatting': 'clearFormatting',
+	  'click .etch-drag': 'drag'
     },
+	
+	drag: function() {
+		
+	},
         
     changeEditable: function() {
       this.setButtonClass();
