@@ -19,7 +19,7 @@
       'default': ['save'],
       'all': ['bold', 'italic', 'underline', 'unordered-list', 'ordered-list', 'link', 'clear-formatting', 'save'],
       'title': ['bold', 'italic', 'underline', 'save'],
-	  'jetstrap': ['bold', 'italic', 'underline', 'unordered-list', 'ordered-list', 'link']
+	  'zak': ['bold', 'italic', 'underline', 'unordered-list', 'ordered-list', 'link']
     }
   };
 

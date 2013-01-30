@@ -58,7 +58,7 @@ define([
 				  '<button type="button" class="close blockminimize" data-dismiss="blockminimize" aria-hidden="true"><i class="icon-double-angle-down"></i></button>'+
 				  '<button type="button" class="close blockclose" data-dismiss="blockclose" aria-hidden="true"><i class="icon-remove"></i></button>'+				  
 				  '<h3 class="blocks-title"></h3>'+
-				  '<div class="blocks-content editable" data-button-class="all" >'+
+				  '<div class="blocks-content editable" data-button-class="zak" >'+
 				  '<p></p>'+
 				  '</div>'+
 				  '</div>'
