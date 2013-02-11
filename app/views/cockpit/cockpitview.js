@@ -177,6 +177,7 @@ define([
 				block.toggle();		  
 			});
 			
+			
 			$('button.blockclose').click(function() {
 				var blockId = $(this).parent().attr('data-block');		  
 				// console.log(blockId);	
@@ -188,18 +189,14 @@ define([
 			
 			/*
 			$('.blocks').hover(
-			function () {
-				console.log($(this));
-				//$(this).addClass("hover");
-				$(this).find('.blockminimize').css('display', 'block');
-				$(this).find('.blockclose').css('display', 'block');
-				$(this).find('h3.blocks-title').css('display', 'block');
-			},
-			function () {
-				$(this).find('.blockminimize').css('display', 'none');
-				$(this).find('.blockclose').css('display', 'none');
-				$(this).find('h3.blocks-title').css('display', 'none');
-			});
+				function () {
+					$(this).css('border', '1px dashed orange');
+					$(this).parent().css('border', 'none');
+				},
+				function () {
+					$(this).css('border', 'none');
+					$(this).parent().css('border', '1px dashed #00a1c8');
+				});
 			*/
 			
 		},

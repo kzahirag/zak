@@ -35,9 +35,9 @@ define([
 				var articleview = new ArticleView({model: article, el: this, tagName: this.tagName});
 			});
 			
-			$('.blockminimize').css('display', 'none');
-			$('.blockclose').css('display', 'none');
-			$('.blocks h3').css('display', 'none');
+			//$('.blockminimize').css('display', 'none');
+			//$('.blockclose').css('display', 'none');
+			//$('.blocks h3').css('display', 'none');
 			
 		},
 		
@@ -49,11 +49,11 @@ define([
 				$(this).attr('contenteditable', 'false');
 			});
 			
-			$('.blockminimize').css('display', 'none');
-			$('.blockclose').css('display', 'none');
-			$('.blocks h3').css('display', 'none');
-			$('#main .article').removeClass('blocks');
-			$('.blocks-content').attr('style', 'padding:0px;');
+			//$('.blockminimize').css('display', 'none');
+			//$('.blockclose').css('display', 'none');
+			//$('.blocks h3').css('display', 'none');
+			//$('#main .article').removeClass('blocks');
+			//$('.blocks-content').attr('style', 'padding:0px;');
 		},
 		
 		enable: function(){
@@ -63,11 +63,11 @@ define([
 				$(this).attr('contenteditable', 'true');
 			});
 			
-			$('#main .article').addClass('blocks');
-			$('.blockminimize').css('display', 'block');
-			$('.blockclose').css('display', 'block');
-			$('.blocks h3').css('display', 'block');
-			$('.blocks-content').removeAttr('style');
+			//$('#main .article').addClass('blocks');
+			//$('.blockminimize').css('display', 'block');
+			//$('.blockclose').css('display', 'block');
+			//$('.blocks h3').css('display', 'block');
+			//$('.blocks-content').removeAttr('style');
 		}
 		
 	});

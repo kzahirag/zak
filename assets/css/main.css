@@ -212,9 +212,9 @@ div.col50
 }
 
 .blocks {
-	position: relative;
+	/*position: relative;
 	display: block;
-	/*
+	*/
 	padding: 1px;
 	background-color: #ffffff;
 	
@@ -230,7 +230,7 @@ div.col50
     -moz-background-clip: padding;
     background-clip: padding-box;
 	margin-bottom: 20px;
-	*/
+	
 }
 
 .blocks button {
